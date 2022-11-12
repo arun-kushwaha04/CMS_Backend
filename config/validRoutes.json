@@ -1,0 +1,47 @@
+{
+    "publicRoutes": [
+        "/login",
+        "/files/download",
+        "/register",
+        "/sendResetPasswordEmail",
+        "/resetPassword"
+    ],
+    "studentRoutes": [
+        "/logout",
+        "/getUserInfo",
+        "/unrollStudentFromClassroom",
+
+        "/postAnnouncement",
+        "/getAssignmentDetails",
+        "/getUpcomingAssignments",
+        "/getUserClassAssignments",
+        "/getClassroomDetails",
+        "/getPostFeed",
+
+        "/validMeetAccess",
+
+        "/postComment",
+        "/postSubmission",
+        "/getSubmission",
+        "/getSubmissions",
+        "/getPeopleInClassroom",
+        "/getStudentAverageGraphData",
+        "/getStudentAssignmentsGraphData"
+    ],
+    "teacherRoutes": [
+        "/createClassroom",
+        "/postAssignment",
+        "/removeStudentFromClassroom",
+        "/addStudentToClassroom",
+        "/removeAssistantFromClassroom",
+        "/addAssistantToClassroom",
+        "/saveMarks"
+    ],
+    "adminRoutes": [
+        "/register",
+        "/disable",
+        "/getUserList",
+        "/updateUser",
+        "/getAllBatchCodes"
+    ]
+}
