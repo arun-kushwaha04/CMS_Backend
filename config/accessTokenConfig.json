@@ -1,0 +1,6 @@
+{
+    "issuer" : "IIITM",
+    "subject" : "Authentication",
+    "expiresIn" : "600s",
+    "algorithm" : "HS256"
+}
